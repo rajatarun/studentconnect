@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install -y httpd
+curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
+sudo yum -y install nodejs
+mkdir /home/ec2-user/application
