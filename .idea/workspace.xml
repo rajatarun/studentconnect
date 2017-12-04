@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df7c0a-8556-43fd-bbdd-6c653c879766" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appspec.yml" afterPath="$PROJECT_DIR$/appspec.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildApp" afterPath="$PROJECT_DIR$/buildApp" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,14 +51,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appspec.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appspec.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appspec.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <marker date="1512349546081" expanded="true" signature="284:291" ph="buildAp" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildApp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buildApp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,6 +144,7 @@
         <option value="$PROJECT_DIR$/install_dependencies" />
         <option value="$PROJECT_DIR$/install_dependencies copy" />
         <option value="$PROJECT_DIR$/appspec.yml" />
+        <option value="$PROJECT_DIR$/buildApp" />
       </list>
     </option>
   </component>
@@ -216,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512320515987</updated>
       <workItem from="1512320517376" duration="10823000" />
-      <workItem from="1512341212898" duration="6172000" />
+      <workItem from="1512341212898" duration="6270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16995000" />
+    <option name="totallyTimeSpent" value="17093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -535,9 +543,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <marker date="1512349546081" expanded="true" signature="284:291" ph="buildAp" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildApp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
