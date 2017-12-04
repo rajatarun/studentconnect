@@ -1,0 +1,37 @@
+hr {
+    width: 2px;
+    height: 100vh;
+    color: black;
+    border-right:1px solid black;
+}
+.Left{
+    width: 30vw;
+    border-right: 1px solid lightgrey;
+    height:100vh;
+    float: left;
+}
+.profile-picture{
+    float: right;
+    margin-right: 5vw;
+    margin-top: 100px;
+}
+.Right{
+    width: 70vw;
+    float: right;
+    height:100vh;
+    padding-left:10vw;
+
+}
+.main-heading{
+    font-size: 100px;
+    margin-top: 80px;
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 10s;
+}
+.float-left{
+    clear: both;
+}
+.Home-Container{
+    width: 100vw;
+    margin: auto;
+}
