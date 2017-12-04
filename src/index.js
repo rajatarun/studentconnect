@@ -5,5 +5,5 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route } from 'react-router-dom'
 
-ReactDOM.render(<BrowserRouter><Route path="#/dashboard/:name" component={App}></Route></BrowserRouter>, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter><Route path="/dashboard/:name" component={App}></Route></BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();

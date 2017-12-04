@@ -1,7 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/application
 sudo npm install
-sudo npm run build
-sudo cp -r build/* /var/www/html
-cd /var/www/html
-sudo chmod 755 *
+sudo npm start
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3000
