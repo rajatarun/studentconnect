@@ -12,7 +12,7 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: build
+    - location: buildApp
       timeout: 300
       runas: root
   ApplicationStop:
