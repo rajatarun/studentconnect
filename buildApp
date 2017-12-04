@@ -2,4 +2,4 @@
 cd /home/ec2-user/application
 sudo npm install
 sudo npm run build
-sudo cp -r build/ /var/www/html
+sudo cp -r build/* /var/www/html
